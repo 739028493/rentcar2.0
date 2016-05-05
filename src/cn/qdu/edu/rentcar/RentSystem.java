@@ -39,6 +39,7 @@ public class RentSystem {
 				System.out.println("日租金是：" + choseModel.getDayRate());
 				System.out.println("租借天数：" + day);
 				System.out.println("费用：" + cTotalFee);
+				System.out.println("----------------------------------------------------------------------");
 				models[i] = choseModel.getVehicleModel() +"  "+ "车牌号是：" + choseModel.getVehicleNumber();
 				rates[i] = choseModel.getDayRate();
 				fees[i] = cTotalFee;
@@ -60,6 +61,7 @@ public class RentSystem {
 				System.out.println("日租金是：" + choseSeat.getDayRate());
 				System.out.println("租借天数：" + day1);
 				System.out.println("费用：" + pTotalFee);
+				System.out.println("----------------------------------------------------------------------");
 				models[i] = "客车  车牌号是：" + choseSeat.getVehicleNumber();
 				rates[i] = choseSeat.getDayRate();
 				fees[i] = pTotalFee;
